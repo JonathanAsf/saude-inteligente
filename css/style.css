@@ -41,32 +41,29 @@
   border: 1px solid rgba(255, 255, 255, 0.43);
 }
 
+input {
+  text-align: center;
+  border-radius: 0.5rem;
+}
+
 .buttons {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  justify-content: center;
   margin: 20px 0;
   gap: 20px;
   width: 100%;
 }
 
-.buttons a,
-.buttons button {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-
+.buttons a {
   font-size: 1.2rem;
   color: white;
   border-radius: 0.5rem;
   background-color: #7bb0ba;
-  border: none;
   text-align: center;
-  text-decoration: none;
   cursor: pointer;
-  padding: 0 1.2rem;
+  padding: 0.2rem 1rem;
 }
 
-.buttons a:hover,
-.buttons button:hover {
+.buttons a:hover {
   background-color: #232728;
 }

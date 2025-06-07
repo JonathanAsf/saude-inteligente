@@ -9,6 +9,11 @@
       href="https://fonts.cdnfonts.com/css/noto-serif-tibetan"
       rel="stylesheet"
     />
+    <link
+      rel="shortcut icon"
+      href="./assets/img/doctor.svg"
+      type="image/x-icon"
+    />
   </head>
   <body>
     <main class="content-main">
@@ -18,21 +23,24 @@
         width="300px"
         class="img-logo"
       />
-      <div>
-        <form action="./" class="form">
-          <h1 class="title-main">Login</h1>
-          <label for="name" class="title-label">E-mail</label>
-          <input type="text" id="name" name="name" placeholder="@email.com" />
+      <form action="./" class="form">
+        <h1 class="title-main">Login</h1>
+        <label for="name" class="title-label">E-mail</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="nome@example.com"
+        />
 
-          <label for="senha" class="title-label">Senha</label>
-          <input type="password" id="senha" name="senha" placeholder="*****" />
+        <label for="senha" class="title-label">Senha</label>
+        <input type="password" id="senha" name="senha" placeholder="Senha" />
 
-          <div class="buttons">
-            <button>Enviar</button>
-            <a href="./">Cadastro</a>
-          </div>
-        </form>
-      </div>
+        <div class="buttons">
+          <a href="./">Login</a>
+          <a href="./">Cadastro</a>
+        </div>
+      </form>
     </main>
   </body>
 </html>
