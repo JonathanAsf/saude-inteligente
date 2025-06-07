@@ -21,10 +21,9 @@
 }
 
 .title-main {
-  display: inline-block; /* Permite controle de padding/margin */
+  display: inline-block;
   text-align: center;
-  font-size: 2rem; /* Ajuste conforme necessário */
-  /* background-color: aqua; */
+  font-size: 2rem;
 }
 
 .form {
@@ -32,10 +31,9 @@
   flex-direction: column;
   padding: 50px 80px;
   border-radius: 2rem;
-  /* From https://css.glass */
   background: rgba(255, 255, 255, 0.4);
   border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: inset #fff 3px 3px 6px 1px, inset#6e749b4d -2px -2px 6px 0;
   backdrop-filter: blur(9.5px);
   -webkit-backdrop-filter: blur(9.5px);
   border: 1px solid rgba(255, 255, 255, 0.43);
