@@ -1,0 +1,19 @@
+.header-content {
+  display: flex;
+  justify-content: space-around;
+  gap: 5rem;
+  height: 100px;
+  margin: 10px 20px;
+  background-color: #232728;
+  border-radius: 1rem;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.links a {
+  color: #fff;
+}
