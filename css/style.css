@@ -1,8 +1,17 @@
 * {
   margin: 0px;
   padding: 0px;
-  font-family: "Noto Serif Tibetan", sans-serif;
   text-decoration: none;
+}
+
+h1,
+h2 {
+  font-family: "Montserrat", sans-serif;
+}
+
+p,
+a {
+  font-family: "Roboto", sans-serif;
 }
 
 .content-main {
@@ -37,17 +46,21 @@
   backdrop-filter: blur(9.5px);
   -webkit-backdrop-filter: blur(9.5px);
   border: 1px solid rgba(255, 255, 255, 0.43);
+  gap: 10px;
 }
 
+label {
+  font-size: 20px;
+}
 input {
   text-align: center;
   border-radius: 0.5rem;
+  font-size: 20px;
 }
 
 .botoes {
   display: flex;
-  justify-content: center;
-
+  justify-content: space-between;
   gap: 20px;
   width: 100%;
 }
@@ -59,7 +72,7 @@ input {
   background-color: #7bb0ba;
   text-align: center;
   cursor: pointer;
-  padding: 0.2rem 1rem;
+  padding: 0.5rem 1rem;
 }
 
 .botoes a:hover {
