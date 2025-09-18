@@ -1,0 +1,20 @@
+:root {
+    --primary-blue-high: #09515E;
+    --primary-blue-medium: #369BAE;
+    --primary-blue-low: #89D2DF;
+
+    --secondary-blue-high:#47B5CA;
+    --secondary-blue-medium:#2F2E41;
+    --secondary-blue-low: #B7D5DA;
+
+    --neutral-black-dark:#0C0C20;
+    --neutral-intense-grey: #364041;
+    --neutral-medium-grey:#59686B;
+    --neutral-weak-grey:#D1D8D9;
+    --neutral-grey: #8E989A;
+    --neutral-white:#F6FAF9;
+
+    --drop-shadow-intense:box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+    --drop-shadow-medium:box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    --drop-shadow-low: box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
