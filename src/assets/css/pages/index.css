@@ -278,6 +278,7 @@ body {
 }
 
 .footer-bottom {
+    color: var(--secondary-blue-low);
     margin: 18px auto 0;
     text-align: center;
 }

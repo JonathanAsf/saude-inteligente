@@ -1,11 +1,12 @@
 @import url('./reset.css');
 @import url('./root.css');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Noto+Sans:wght@300;400;700&display=swap');
 
 h1,
 h2,
 h3,
 h4 {
-    font-family: "Lora", serif;;
+    font-family: "Lora",serif;
     font-weight: var(--title-font-weight);
 }
 
