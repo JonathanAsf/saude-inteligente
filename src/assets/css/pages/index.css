@@ -13,29 +13,28 @@ body {
 
 .auth-buttons {
     display: flex;
-    justify-content: flex-end;
-    gap: 12px;
+    justify-content: end;
+    gap: var(--gap-small);
 }
 
 .btn {
     text-decoration: none;
-    padding: 8px 16px;
-    border-radius: 6px;
-    font-size: 15px;
-    font-family: Arial, sans-serif;
-    font-weight: 500;
+    padding: 12.5px 50px;
+    border-radius: var(--radius);
+    font-size: var(--btn-font-size);
+    font-weight: var(--btn-font-weight);
     cursor: pointer;
     transition: 0.2s ease-in-out;
 }
 
 .btn-login {
     background: transparent;
-    color: #ffffff;
-    border: 1px solid #ffffff;
+    color: var(--neutral-white);
+    border: 1px solid var(--neutral-white);
 }
 
 .btn-login:hover {
-    background: rgba(255, 255, 255, 0.2);
+    background: var(--secondary-blue-medium);
 }
 
 .btn-signup {
