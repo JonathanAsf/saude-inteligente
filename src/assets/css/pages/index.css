@@ -64,6 +64,13 @@ body {
     
 }
 
+.hero-blur-area {
+    backdrop-filter: blur(1.5px);
+    -webkit-backdrop-filter: blur(18px);
+    border-radius: var(--radius-high);
+    padding: var(--gap-medium);
+}
+
 .hero-content{
     display: grid;
     grid-template-columns: 1fr 1fr;
