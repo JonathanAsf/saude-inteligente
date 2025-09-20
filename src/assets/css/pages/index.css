@@ -97,19 +97,20 @@ body {
     background-color: var(--primary-blue-high);
 }
 
+h2{
+    color: var(--secondary-blue-low);
+}
+
 .footer-container{
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1.1fr 1fr 1fr 1fr;
+    background: var(--primary-blue-high);
     padding: 32px 16px 12px;
-    gap: var(--gap-medium);
-    align-items: start;
-    bottom: 0;
-    background-color: var(--primary-blue-high);
 }
 
 .footer-content{
+    display: grid;
+    grid-template-columns: 1.1fr 1fr 1fr 1fr;
     padding: 80px 195px;
+    gap: var(--gap-medium);
 }
 
 .footer-brand{
@@ -147,20 +148,17 @@ body {
     opacity: 1;
     text-decoration: underline;
     text-underline-offset: 3px;
+    color: var(--default-color-link);
 }
 
 .footer-info a:focus {
     outline: 2px solid var(--neutral-white);
     outline-offset: 2px;
-    border-radius: 4px;
+    border-radius: var(--radius-small);
 }
 
 .footer-bottom {
-    max-width: var(--maxw);
     margin: 18px auto 0;
-    padding-top: 12px;
-    border-top: 1px solid rgba(255, 255, 255, .15);
     color: var(--secondary-blue-low);
     text-align: center;
-    font-size: 12px;
 }
