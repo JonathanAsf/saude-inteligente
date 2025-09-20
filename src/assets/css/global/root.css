@@ -20,6 +20,9 @@
     --drop-shadow-medium:box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     --drop-shadow-low: box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 
+    --card-bg: rgba(255, 255, 255, 0.18);
+    --card-border: 1px solid rgba(255, 255, 255, 0.25);
+
     --title-font-weight:700;
     --h1-font-size: 96px;
     --h2-font-size: 48px;
@@ -38,6 +41,7 @@
 
     --maxw: 1100px;
     --radius-small: 8px;
+
     --radius-high: 50px;
 
     --gap-small: 20px;
