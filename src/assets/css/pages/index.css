@@ -1,6 +1,14 @@
 @import url('../global/reset.css');
 @import url('../global/normalize.css');
 @import url('../global/root.css');
+
+h1,
+h2,
+p,
+scpan{
+    color: var(--secondary-blue-low);;
+}
+
 body {
     background: var(--neutral-weak-grey);
 }
@@ -167,6 +175,7 @@ body {
     text-transform: capitalize;
     max-width: 1200px;
     text-align: center;
+    color: var(--neutral-black-dark);
 }
 
 .event-container{
@@ -178,12 +187,48 @@ body {
 }
 
 .event-card{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     width: 100%;
     height: 720px;
     border-radius: var(--radius-high);
     background-color: var(--primary-blue-high);
 }
 
+.event-card:nth-child(1){
+    background-image: url("../../images/character/doctor4.svg");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.event-card:nth-child(2) {
+    background-image: url("../../images/character/doctor5.svg");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.event-card-text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px;
+    gap: var(--gap-small);
+}
+
+.event-card-text-btn{
+    margin-top: 70px;
+}
+
+.event-card-text span{
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    font-size:var(-btn-font-size); 
+    padding: 8px 12px;
+    background-color: var(--neutral-weak-grey);
+    border-radius: var(--radius-small);
+    text-transform: capitalize;
+}
 
 .footer-container{
     background: var(--primary-blue-high);
@@ -198,13 +243,9 @@ body {
 }
 
 .footer-brand{
-    color: var(--secondary-blue-low);
     max-width: 26ch;
 }
 
-.footer-info h2 {
-    color: var(--secondary-blue-low);
-}
 
 .footer-info ul {
     list-style: none;
@@ -238,6 +279,5 @@ body {
 
 .footer-bottom {
     margin: 18px auto 0;
-    color: var(--secondary-blue-low);
     text-align: center;
 }
