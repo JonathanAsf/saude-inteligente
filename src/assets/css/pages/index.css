@@ -20,7 +20,7 @@ body {
 .btn {
     text-decoration: none;
     padding: 12.5px 50px;
-    border-radius: var(--radius);
+    border-radius: var(--radius-small);
     font-size: var(--btn-font-size);
     font-weight: var(--btn-font-weight);
     cursor: pointer;
@@ -45,4 +45,122 @@ body {
 
 .btn-signup:hover {
     background: var(--secondary-blue-medium);
+}
+
+.hero-container{
+    height: 665px;
+    background-color: var(--primary-blue-high);
+    border-radius: var(--radius-high);
+    margin: var(--gap-high) var(--gap-small);
+}
+
+.cards-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--gap-small);
+    margin: var(--gap-high) var(--gap-small);
+}
+
+.card{
+    width: 100%;
+    height: 720px;
+    border-radius: var(--radius-high);
+    background-color: var(--primary-blue-high);
+}
+
+.title-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: var(--gap-high) var(--gap-small);
+}
+
+.title-content{
+    text-transform: capitalize;
+    max-width: 1200px;
+    text-align: center;
+}
+
+.event-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--gap-small);
+    margin: var(--gap-high) var(--gap-small);
+}
+
+.event-card{
+    width: 100%;
+    height: 720px;
+    border-radius: var(--radius-high);
+    background-color: var(--primary-blue-high);
+}
+
+.footer-container{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1.1fr 1fr 1fr 1fr;
+    padding: 32px 16px 12px;
+    gap: var(--gap-medium);
+    align-items: start;
+    bottom: 0;
+    background-color: var(--primary-blue-high);
+}
+
+.footer-content{
+    padding: 80px 195px;
+}
+
+.footer-brand{
+    margin: 0 0 8px;
+    margin: 0;
+    color: var(--secondary-blue-low);
+    max-width: 26ch;
+}
+
+.footer-info h4 {
+    margin: 0 0 10px;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--secondary-blue-low);
+}
+
+.footer-info ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-info li {
+    margin: 8px 0;
+}
+
+.footer-info a {
+    color: var(--neutral-white);
+    text-decoration: none;
+    opacity: .9;
+}
+
+.footer-info a:hover,
+.footer-info a:focus {
+    opacity: 1;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+.footer-info a:focus {
+    outline: 2px solid var(--neutral-white);
+    outline-offset: 2px;
+    border-radius: 4px;
+}
+
+.footer-bottom {
+    max-width: var(--maxw);
+    margin: 18px auto 0;
+    padding-top: 12px;
+    border-top: 1px solid rgba(255, 255, 255, .15);
+    color: var(--secondary-blue-low);
+    text-align: center;
+    font-size: 12px;
 }

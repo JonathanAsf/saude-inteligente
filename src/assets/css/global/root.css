@@ -37,7 +37,8 @@
     --link-font-weight:600;
 
     --maxw: 1100px;
-    --radius: 8px;
+    --radius-small: 8px;
+    --radius-high: 50px;
 
     --gap-small: 20px;
     --gap-medium: 40px;
