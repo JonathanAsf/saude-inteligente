@@ -1,0 +1,44 @@
+@import url('../global/reset.css');
+@import url('../global/normalize.css');
+@import url('../global/root.css');
+
+.topbar {
+    background-color: var(--neutral-white);
+    padding: 12px 24px;
+}
+
+.auth-buttons {
+    display: flex;
+    justify-content: end;
+    gap: var(--gap-small);
+}
+
+.btn {
+    text-decoration: none;
+    padding: 12.5px 50px;
+    border-radius: var(--radius-small);
+    font-size: var(--btn-font-size);
+    font-weight: var(--btn-font-weight);
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.btn-login {
+    background: transparent;
+    color: var(--neutral-white);
+    border: 1px solid var(--neutral-white);
+}
+
+.btn-login:hover {
+    background: var(--secondary-blue-high);
+}
+
+.btn-signup {
+    background: var(--primary-blue-medium);
+    color: var(--neutral-white);
+    border: none;
+}
+
+.btn-signup:hover {
+    background: var(--secondary-blue-high);
+}

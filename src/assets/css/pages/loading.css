@@ -12,9 +12,6 @@
     color: var(--primary-blue-low);
     text-align: center;
     gap: 20px;
-    background-image: url("../../images/character/wait-character.svg");
-    background-repeat: no-repeat;
-    background-position: bottom right;
 }
 
 .loading-screen h2 {
