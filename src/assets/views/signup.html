@@ -4,10 +4,10 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Sign up — Saúde Inteligente</title>
+    <title>Saúde Inteligente - Cadastre-se</title>
     <link rel="stylesheet" href="../css/pages/signup.css" />
     <link rel="shortcut icon" href="../images/icons/logo.svg" type="image/x-icon">
-
+    <script src="../js/signup.js" defer></script>
 </head>
 <body class="page-background">
     
@@ -100,21 +100,6 @@
                 <button class="btn" type="submit">Criar conta</button>
             </form>
 
-            <script>
-                document.querySelector('.eye')?.addEventListener('click', function () {
-                    const input = document.getElementById('password');
-                    const isPwd = input.type === 'password';
-                    input.type = isPwd ? 'text' : 'password';
-                    this.setAttribute('aria-label', isPwd ? 'Ocultar senha' : 'Mostrar senha');
-                    this.title = isPwd ? 'Ocultar senha' : 'Mostrar senha';
-                });
-
-                const country = document.getElementById('country');
-                const prefix = document.getElementById('prefix');
-                country?.addEventListener('change', () => {
-                    prefix.value = country.selectedOptions[0].getAttribute('data-prefix') || '';
-                });
-            </script>
     </main>
 
 </body>
